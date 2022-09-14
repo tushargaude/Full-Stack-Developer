@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <button type="button" onclick="helloFun()">On Click Event</button>
+    <button type="button" onmouseover="helloFun1()">On Mouse Over</button>
+    <button type="button" onload="helloFun2()">On load</button>
+    <button type="button" onmouseleave="helloFun3()"> On mOuse Leave Event</button>
+    <button type="button" onmousedown="helloFun4()"> On mOuse Down Event</button>
+
+    <script>
+        function helloFun(){
+            let x="On Click Event hello World";
+            return val=document.getElementById("demo").innerHTML=x;;
+        }
+        function helloFun1(){
+            let x="On Mouse Over hello World";
+            return val=document.getElementById("demo").innerHTML=x;;
+        }
+        function helloFun2(){
+            let x="On Load hello World";
+            return val=document.getElementById("demo").innerHTML=x;;
+        }
+        function helloFun3(){
+            let x="On mouse leave hello World";
+            return val=document.getElementById("demo").innerHTML=x;;
+        }
+        function helloFun4(){
+            let x="On mouse down hello World";
+            return val=document.getElementById("demo").innerHTML=x;;
+        }
+
+        
+    </script>
+</body>
+</html>

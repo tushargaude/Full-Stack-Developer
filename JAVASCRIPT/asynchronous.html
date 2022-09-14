@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        function myCalculator( a, b, myCall){
+            let sum=a+b;
+            myCall(sum)
+        }
+
+        function display(something){
+            document.getElementById("demo").innerHTML=something;
+        }
+        myCalculator(2,4,display);
+
+        setTimeout(test,3000);
+        function test(){
+            document.getElementById("demo1").innerHTML="hello";
+        }
+    </script>
+</body>
+</html>

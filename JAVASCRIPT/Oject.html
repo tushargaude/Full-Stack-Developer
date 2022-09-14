@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const person={ name:"tushar",last:"gaude",age:22};
+        document.write(person.name+" ");
+        document.write(person["last"]);
+
+        const person2={ 
+            firstName: "tushar",
+            lastName : "gaude",
+            age       : 22,
+            fullName : function() {
+                return this.firstName+" "+this.lastName;
+            }
+        };
+        document.write('<br>');
+        document.write(person2.fullName());
+    </script>
+</body>
+</html>
