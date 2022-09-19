@@ -30,3 +30,4 @@ function createdatas(newdata){
 }
 getDatas();
 createdatas({name: "soham",age: 20},getDatas)
+
